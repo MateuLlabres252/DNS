@@ -4,7 +4,7 @@ apt upgrade -y
 apt install bind9 -y
 
 # Connexi   amb GitHub
-BASE_URL="https://github.com/PauAlumnesS2I/sxi-ci-g03.git"
+BASE_URL="https://github.com/MateuLlabres252/DNS.git"
 
 curl -sSL "$BASE_URL/named.conf.local" -o "/etc/bind/named.conf.local"
 curl -sSL "$BASE_URL/db.granalmacen.org" -o "/etc/bind/db.granalmacen.org"
