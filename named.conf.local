@@ -1,6 +1,3 @@
-// Incluir la clave
-include "/etc/bind/update-key.key";
-
 // Zona directa
 zone "granalmacen.org" {
     type master;
